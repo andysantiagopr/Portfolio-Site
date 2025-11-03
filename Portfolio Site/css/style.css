@@ -1,0 +1,176 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1745520387555-9f9f3069d743?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: soft-light;
+    color: #D4AF37;
+    text-shadow: 0 0 10px rgba(255,255,255,0.4);
+    text-shadow: 0 0 10px rgba(255,255,255,0.4);
+    font-family: "Cinzel", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: #F8F5E4;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    position: relative;
+}
+
+#name {
+    font-size: 3rem;
+    font-weight: 900;
+    color: #F8F5E4;
+    margin: 0;   
+}
+
+#lesson {
+    font-size: 1.8rem;    
+    font-weight: 400;             
+    margin-top: 15px;           
+    max-width: 900px;
+}
+
+#about {
+  min-height: 100vh;
+  padding: 80px 20px;
+  background:
+    linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)),
+    url("https://images.unsplash.com/photo-1463790452759-ce66b98dfca2?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170") center/cover no-repeat;
+  color: #F8F5E4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 20px;
+}
+
+.about-box {
+  background: rgba(0, 0, 0, 0.6); 
+  padding: 40px 60px;            
+  border-radius: 10px;           
+  max-width: 800px;              
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+.title-projects {
+  display: flex;
+  justify-content: center;
+}
+
+#projects {
+  min-height: 100vh;
+  padding: 80px 20px;
+  background:
+    linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)),
+    url("https://images.unsplash.com/photo-1574693706623-a795f3bc23d1?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1151") center/cover no-repeat;
+  color: #F8F5E4;
+  text-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+}
+
+.title-projects {
+  font-size: 3rem;
+  color:#D4AF37;
+}
+
+.project-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 0 5%;
+}
+
+.project {
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color:#D4AF37;
+}
+
+#contact {
+  min-height: 100dvh;
+  padding: 80px 20px;
+  background:
+    linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)),
+    url("https://images.unsplash.com/photo-1626096012166-cd3b0fe605a8?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1332") center/cover no-repeat;
+  color: #F8F5E4;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 120px;
+}
+
+.contact-content {   
+  min-height: 100vh;           
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 80px 20px;
+  flex-grow: 1; 
+}
+
+#contact h2 {
+  font-size: 3rem;
+  margin: 20px;
+}
+
+.contact-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+#contact footer {
+  flex-shrink: 0; 
+  text-align: center;
+  font-size: 1.1rem;  
+  color: #D4AF37;
+  padding-bottom: 20px; 
+}
